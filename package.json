@@ -1,23 +1,22 @@
 {
-    "name": "com.mattn.com.mattn.projectversioning",
-    "version": "0.0.1",
-    "displayName": "Project Versioning",
-    "description": "This package is a small utility to easily version builds",
-    "unity": "2020.1",
-    "documentationUrl": "https://github.com/matt-newcombe/com.mattn.projectversioning",
-    "licensesUrl": "https://github.com/matt-newcombe/com.mattn.projectversioning/blob/main/LICENSE",
-   "keywords": [
-      "project",
-      "version",
-      "tool"
-    ],
-    "author": {
-      "name": "Matthew Newcombe",
-      "email": "a@mnewcombe.com",
-      "url": "https://www.mnewcombe.com"
-    },
-    "dependencies": {
-      "com.mattn.gitcmdline": "git@github.com:matt-newcombe/unity-git-command-line-tool.git"
-    }
+  "name": "com.mattn.projectversioning",
+  "version": "0.0.1",
+  "displayName": "Project Versioning",
+  "description": "This package is a small utility to easily version builds",
+  "unity": "2020.1",
+  "documentationUrl": "https://github.com/matt-newcombe/com.mattn.projectversioning",
+  "licensesUrl": "https://github.com/matt-newcombe/com.mattn.projectversioning/blob/main/LICENSE",
+  "keywords": [
+    "project",
+    "version",
+    "tool"
+  ],
+  "author": {
+    "name": "Matthew Newcombe",
+    "email": "a@mnewcombe.com",
+    "url": "https://www.mnewcombe.com"
+  },
+  "dependencies": {
+    "com.mattn.gitcmdline": "https://github.com/matt-newcombe/unity-git-command-line-tool.git"
   }
-  
+}

@@ -9,6 +9,7 @@ using UnityEngine;
 /// </summary>
 public static class VersionInfoWriter
 {
+    [MenuItem("Version Info/Update Resource Test")]
     public static void UpdateVersionInfoResource()
     {
         string buildNumber = "0";
@@ -37,7 +38,7 @@ public static class VersionInfoWriter
 
         Debug.Log($"VersionInfo: Is vInfo null - {versionInfo == null}");
 
-        versionInfo.gitCommitShortHash = GitCommandLine.RunBlockingGitCommand("rev-parse --short HEAD").Output;
+        versionInfo.gitCommitShortHash = GitCommandLine.RunBlockingGitCommand(GitCommands.CURRENT_COMMIT_SHORT_HASH).Output;
         versionInfo.buildNumber = buildNumber;
         versionInfo.buildMachineName = SystemInfo.deviceName;
         versionInfo.buildTime = $"{DateTime.Now.ToShortDateString()} - {DateTime.Now.ToShortTimeString()}";

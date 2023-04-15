@@ -15,8 +15,5 @@
     "name": "Matthew Newcombe",
     "email": "a@mnewcombe.com",
     "url": "https://www.mnewcombe.com"
-  },
-  "dependencies": {
-    "com.mattn.gitcmdline": "https://github.com/matt-newcombe/unity-git-command-line-tool.git"
   }
 }
